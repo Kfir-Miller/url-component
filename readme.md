@@ -8,7 +8,7 @@ https://docs.google.com/document/d/1Jr60Py69r_Jtd3v3Qi1e40vO_qbcMROmBA04lVCDMlI/
 
 #### Ervaring
 
-Zelf heb ik een half jaar geleden kort gewerkt met React.js. De reden dat ik React.js toen der tijd heb gebruikt is om het view gedeelte van de Angular.js framework te vervangen met een meer efficient HTML processor.
+Zelf heb ik een half jaar geleden kort gewerkt met React.js. De reden dat ik React.js toentertijd heb gebruikt is om het view gedeelte van de Angular.js framework te vervangen met een meer efficient HTML processor.
 
 Tijdens het ontwikkelen heb ik gemerkt dat ik al gauw andere frameworks/oplossingen nodig heb om validatie, ajax post/get etc te doen.
 
