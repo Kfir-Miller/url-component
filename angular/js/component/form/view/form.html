@@ -1,0 +1,37 @@
+<div ng-controller='formController'>
+    <form name='urlForm' ng-submit="submitForm()" novalidate>
+        <div>
+            <div class="row">
+                <div class="col-md-4">
+                    Link:
+                </div>
+                <div>
+                    <div class="col-md-6">
+                        <input
+                            type="text" 
+                            class="form-control" 
+                            placeholder="Url" 
+                            name='url'
+                            ng-model="form.url"
+                            required
+                            validate-website
+                            />
+                        <div ng-messages="urlForm.url.$error" ng-if="urlForm.url.$timesUp || urlForm.$submitted">
+                            <small class='' ng-message="required">
+                                URL is verplicht.<br>
+                            </small>
+                            <small ng-message="website">
+                                De opgegeven URL is niet correct.<br>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-info">
+                            save
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
